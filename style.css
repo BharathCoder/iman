@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+div.img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bl{
+    position:absolute;
+    top: 49.1%;
+    left: 51.8%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+    background-color:black;
+    height: 158px;
+    width: 145px;
+}
+.bl:hover{
+    position:absolute;
+    top: 49.1%;
+    left: 51.8%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+background-color: aqua;
+    height: 158px;
+    width: 145px;
+    transition: 2.5s;
+    box-shadow: 100px rgb(255, 255, 255) ;
+}
